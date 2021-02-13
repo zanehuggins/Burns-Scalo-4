@@ -1,0 +1,336 @@
+$orange: #F26524;
+$black: #333033;
+$gray50: #8C8E90;
+$turquoise: #00AC98;
+$green: #C2D500;
+
+/* TYPOGRAPHY */
+
+h1{
+font-family: gotham;
+}
+
+h2{
+  font-family: gotham;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+h3{
+  font-family: gotham;
+}
+
+p{
+  font-family: gotham;
+}
+
+a{
+  font-family: gotham;
+}
+
+li{
+  font-family: gotham;
+}
+
+.green-underline{
+  border-bottom: 6px solid $green;
+}
+
+.turquoise-underline{
+  border-bottom: 6px solid $turquoise;
+}
+
+.orange-underline{
+  border-bottom: 6px solid $orange;
+}
+
+
+/* MAIN STYLES */
+
+
+html{
+  padding-top: 0!important;
+  margin: 0!important;
+}
+body{
+  padding-top:0px!important;
+  margin-top: 0px!important;
+}
+
+section{
+  height: 100vh;
+  float: left;
+  position: relative;
+
+.copy-container-left{
+  height: 50vh;
+  margin-top: 25vh;
+  background-color: #f2f2f2;
+  position: absolute;
+  z-index: -1;
+
+  h2{
+float: left;
+margin-top: 50px;
+  margin-bottom: 25px;
+  }
+
+  p{
+    float: left;
+  }
+}
+
+.image-container-right{
+  float: right;
+  height: 75vh;
+  margin-top: 12.5vh;
+  overflow: hidden;
+  z-index: 2;
+}
+}
+
+/* HEADER */
+
+header{
+  background-color: white;
+  height: 8vh;
+  margin-top: 0!important;
+  padding-top: 0;
+  position: fixed;
+  z-index: 10;
+
+.logo{
+  padding-top: 15px;
+  padding-left: 10vh;
+}
+
+a{
+  float: left;
+  text-decoration: none;
+}
+
+  ul{
+
+    list-style: none;
+    padding-top: 0!important;
+    margin-top: 0!important;
+    float: left;
+  li{
+    margin-top: 0;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    a{
+      float: left;
+      color: black;
+      padding-top: 20px;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+    a:hover{
+      border-top: 5px solid $orange;
+      padding-top: 15px;
+      color: black;
+    }
+  }
+}
+
+.box-link{
+  float: left;
+padding: 10px;
+
+.box-link-1{
+  width: 50%!important;
+  margin-right: 5%;
+}
+a{
+  padding: 7.5px;
+  float: left;
+  color: black;
+  text-align: center;
+  width: 30%;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: 1px solid lightgray;
+  height: 5vh!important;
+}
+a:hover{
+  color: white;
+  background-color: $orange;
+  border: 1px solid $orange;
+}
+}
+}
+
+
+/* PEOPLE SECTION */
+
+#people{
+  height: 125vh!important;
+  position: relative;
+
+  img{
+    height: auto;
+    position: absolute;
+  }
+}
+
+/* ANIMATION */
+
+iframe{
+  height: 100vh;
+}
+
+#people{
+.svg1 {
+  position: fixed;
+  animation: scale 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -.01s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+
+  top: 0vh;
+}
+
+
+@keyframes scale {
+  to {
+    transform: scale(15000) translateY(2500px) translateX(-23vw);
+
+  }
+}
+
+
+
+
+
+.svg2 {
+  position: fixed;
+  animation: scale2 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -.01s);
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+
+  top: 0vh;
+}
+
+
+@keyframes scale2 {
+  to {
+    transform: scale(15000) translateY(-5000px) translateX(-50vw);
+
+  }
+}
+
+
+}
+/* CLOSE #PEOPLE */
+
+.zoom{
+  position: fixed;
+  height: 100vh;
+  background-image: url('../assets/images/shannon-2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reveal-container{
+  margin-top: 15vh;
+}
+
+
+/* HOME PAGE */
+.home-1{
+overflow: hidden;
+
+.svg-v-1{
+  position: absolute;
+  left: 8.25vw;
+}
+
+.svg-v-2{
+  position: absolute;
+  left: 41.5vw;
+}
+
+.svg-h-1{
+  position: absolute;
+  top: 25vh;
+}
+
+.svg-h-2{
+  position: absolute;
+  top: 75vh;
+}
+}
+
+
+
+/* FOOTER */
+
+footer{
+  float: left;
+  position: fixed;
+  bottom: 0;
+  height: 5vh;
+  background-color: white;
+  ul{
+    float: left!important;
+    list-style: none;
+    margin-top: 10px;
+
+  }
+li{
+  float: left;
+  padding-right: 20px;
+}
+  a{
+    float: left;
+    color: black;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  a:hover{
+    text-decoration: none;
+    color: gray;
+  }
+}
+
+
+
+
+
+/* CLOSE FOOTER */
+
+
+
+
+
+/* HOME */
+#home-main{
+  height: 100vh;
+  float: left;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  .video-background{
+    width: 100vw;
+    height: auto;
+    z-index: 0;
+  }
+
+  h2{
+    position: absolute;
+    left: 10vh;
+    bottom: 10vh;
+    z-index: 1;
+    color: white;
+    font-style: italic;
+    font-family: macklin;
+    font-weight: 900;
+  }
+
+}
