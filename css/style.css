@@ -53,8 +53,27 @@ section {
       margin-bottom: 25px; }
     section .copy-container-left p {
       float: left; }
+  section .copy-container-right {
+    height: 50vh;
+    margin-top: 25vh;
+    background-color: #f2f2f2;
+    position: absolute;
+    z-index: -1;
+    float: right; }
+    section .copy-container-right h2 {
+      float: left;
+      margin-top: 50px;
+      margin-bottom: 25px; }
+    section .copy-container-right p {
+      float: left; }
   section .image-container-right {
     float: right;
+    height: 75vh;
+    margin-top: 12.5vh;
+    overflow: hidden;
+    z-index: 2; }
+  section .image-container-left {
+    float: left;
     height: 75vh;
     margin-top: 12.5vh;
     overflow: hidden;
@@ -221,5 +240,20 @@ footer {
     font-style: italic;
     font-family: macklin;
     font-weight: 900; }
+
+#home-2 {
+  overflow: hidden; }
+  #home-2 .svg-v-1 {
+    position: absolute;
+    left: 8.25vw; }
+  #home-2 .svg-v-2 {
+    position: absolute;
+    left: 41.5vw; }
+  #home-2 .svg-h-1 {
+    position: absolute;
+    top: 25vh; }
+  #home-2 .svg-h-2 {
+    position: absolute;
+    top: 75vh; }
 
 /*# sourceMappingURL=style.css.map */
