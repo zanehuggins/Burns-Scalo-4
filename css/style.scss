@@ -109,6 +109,10 @@ margin-top: 50px;
   margin-top: 12.5vh;
   overflow: hidden;
   z-index: 2;
+  img{
+    height: 100%!important;
+    width: auto;
+  }
 }
 
 .image-container-left{
@@ -117,6 +121,10 @@ margin-top: 50px;
   margin-top: 12.5vh;
   overflow: hidden;
   z-index: 2;
+  img{
+    height: 100%!important;
+    width: auto;
+  }
 }
 }
 
@@ -129,6 +137,8 @@ header{
   padding-top: 0;
   position: fixed;
   z-index: 10;
+  max-height: 65px;
+
 
 .logo{
   padding-top: 15px;
@@ -169,6 +179,7 @@ a{
 .box-link{
   float: left;
 padding: 10px;
+  max-height: 35px!important;
 
 .box-link-1{
   width: 50%!important;
@@ -303,6 +314,8 @@ overflow: hidden;
 
 
 
+
+
 /* FOOTER */
 
 footer{
@@ -377,23 +390,24 @@ li{
 
 #home-2{
 overflow: hidden;
+position: relative;
 
-.svg-v-1{
+.svg-v-3{
   position: absolute;
   left: 8.25vw;
 }
 
-.svg-v-2{
+.svg-v-4{
   position: absolute;
   left: 41.5vw;
 }
 
-.svg-h-1{
+.svg-h-3{
   position: absolute;
   top: 25vh;
 }
 
-.svg-h-2{
+.svg-h-4{
   position: absolute;
   top: 75vh;
 }

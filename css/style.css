@@ -72,12 +72,18 @@ section {
     margin-top: 12.5vh;
     overflow: hidden;
     z-index: 2; }
+    section .image-container-right img {
+      height: 100% !important;
+      width: auto; }
   section .image-container-left {
     float: left;
     height: 75vh;
     margin-top: 12.5vh;
     overflow: hidden;
     z-index: 2; }
+    section .image-container-left img {
+      height: 100% !important;
+      width: auto; }
 
 /* HEADER */
 header {
@@ -86,7 +92,8 @@ header {
   margin-top: 0 !important;
   padding-top: 0;
   position: fixed;
-  z-index: 10; }
+  z-index: 10;
+  max-height: 65px; }
   header .logo {
     padding-top: 15px;
     padding-left: 10vh; }
@@ -115,7 +122,8 @@ header {
         color: black; }
   header .box-link {
     float: left;
-    padding: 10px; }
+    padding: 10px;
+    max-height: 35px !important; }
     header .box-link .box-link-1 {
       width: 50% !important;
       margin-right: 5%; }
@@ -242,17 +250,18 @@ footer {
     font-weight: 900; }
 
 #home-2 {
-  overflow: hidden; }
-  #home-2 .svg-v-1 {
+  overflow: hidden;
+  position: relative; }
+  #home-2 .svg-v-3 {
     position: absolute;
     left: 8.25vw; }
-  #home-2 .svg-v-2 {
+  #home-2 .svg-v-4 {
     position: absolute;
     left: 41.5vw; }
-  #home-2 .svg-h-1 {
+  #home-2 .svg-h-3 {
     position: absolute;
     top: 25vh; }
-  #home-2 .svg-h-2 {
+  #home-2 .svg-h-4 {
     position: absolute;
     top: 75vh; }
 
