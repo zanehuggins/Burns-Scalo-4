@@ -127,6 +127,9 @@ margin-top: 50px;
   div{
     float: left;
   }
+  a:hover{
+    opacity: .75;
+  }
 }
 
 .copy-link-green{
@@ -410,6 +413,60 @@ overflow: hidden;
   position: absolute;
   top: 75vh;
 }
+}
+
+
+
+
+.who-1{
+overflow: hidden;
+
+.svg-v-1{
+  position: absolute;
+  left: 8.25vw;
+}
+
+.svg-v-2{
+  position: absolute;
+  left: 50vw;
+}
+
+.svg-h-1{
+  position: absolute;
+  top: 25vh;
+}
+
+.svg-h-2{
+  position: absolute;
+  top: 75vh;
+}
+}
+
+
+
+.who-2{
+  overflow: hidden;
+  position: relative;
+
+  .svg-v-3{
+    position: absolute;
+    right: 8.25vw;
+  }
+
+  .svg-v-4{
+    position: absolute;
+    left: 50vw;
+  }
+
+  .svg-h-3{
+    position: absolute;
+    top: 25vh;
+  }
+
+  .svg-h-4{
+    position: absolute;
+    bottom: 25vh;
+  }
 }
 
 

@@ -89,6 +89,8 @@ section {
     background-color: rgba(229, 229, 229, 0.5) !important; }
     section .copy-top div {
       float: left; }
+    section .copy-top a:hover {
+      opacity: .75; }
   section .copy-link-green {
     background-color: #C2D500;
     font-family: gotham;
@@ -284,6 +286,37 @@ iframe {
   .home-1 .svg-h-2 {
     position: absolute;
     top: 75vh; }
+
+.who-1 {
+  overflow: hidden; }
+  .who-1 .svg-v-1 {
+    position: absolute;
+    left: 8.25vw; }
+  .who-1 .svg-v-2 {
+    position: absolute;
+    left: 50vw; }
+  .who-1 .svg-h-1 {
+    position: absolute;
+    top: 25vh; }
+  .who-1 .svg-h-2 {
+    position: absolute;
+    top: 75vh; }
+
+.who-2 {
+  overflow: hidden;
+  position: relative; }
+  .who-2 .svg-v-3 {
+    position: absolute;
+    right: 8.25vw; }
+  .who-2 .svg-v-4 {
+    position: absolute;
+    left: 50vw; }
+  .who-2 .svg-h-3 {
+    position: absolute;
+    top: 25vh; }
+  .who-2 .svg-h-4 {
+    position: absolute;
+    bottom: 25vh; }
 
 /* FOOTER */
 footer {
