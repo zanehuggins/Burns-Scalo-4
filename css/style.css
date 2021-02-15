@@ -400,7 +400,10 @@ footer {
 /* PORTFOLIO */
 /* PORTFOLIO PAGE */
 #portfolio section {
-  padding-top: 15vh; }
+  padding-top: 15vh;
+  float: left;
+  padding-left: 4vw;
+  padding-right: 4vw; }
 #portfolio aside {
   padding-top: 15vh !important;
   border-right: 2px solid #f1f1f1;
