@@ -85,7 +85,8 @@ section {
     section .copy-container-right p {
       float: left; }
   section .copy-top {
-    z-index: 9; }
+    z-index: 9;
+    background-color: rgba(229, 229, 229, 0.5) !important; }
     section .copy-top div {
       float: left; }
   section .copy-link-green {
