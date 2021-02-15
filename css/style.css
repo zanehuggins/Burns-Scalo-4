@@ -5,13 +5,21 @@ h1 {
 h2 {
   font-family: gotham;
   font-weight: 900;
-  font-size: 40px; }
+  font-size: 40px;
+  line-height: 40px; }
 
 h3 {
   font-family: gotham; }
 
+h4 {
+  font-family: macklin;
+  font-size: 22px;
+  font-style: italic;
+  float: left; }
+
 p {
-  font-family: gotham; }
+  font-family: gotham;
+  font-size: 15px; }
 
 a {
   font-family: gotham; }
@@ -27,6 +35,16 @@ li {
 
 .orange-underline {
   border-bottom: 6px solid #F26524; }
+
+.macklin {
+  font-family: macklin !important;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 32.5px;
+  padding: 0; }
+
+.giant {
+  font-size: 65px; }
 
 /* MAIN STYLES */
 html {
@@ -66,6 +84,37 @@ section {
       margin-bottom: 25px; }
     section .copy-container-right p {
       float: left; }
+  section .copy-top {
+    z-index: 9; }
+    section .copy-top div {
+      float: left; }
+  section .copy-link-green {
+    background-color: #C2D500;
+    font-family: gotham;
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px; }
+  section .copy-link-turquoise {
+    background-color: #00AC98;
+    font-family: gotham;
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px; }
+  section .copy-link-orange {
+    background-color: #F26524;
+    font-family: gotham;
+    float: left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 25px; }
   section .image-container-right {
     float: right;
     height: 75vh;
@@ -84,6 +133,30 @@ section {
     section .image-container-left img {
       height: 100% !important;
       width: auto; }
+
+.arrow-up-1 {
+  position: absolute;
+  width: 45px;
+  margin-left: 22.5vw;
+  margin-top: 17.5vh; }
+
+.arrow-down-1 {
+  position: absolute;
+  width: 45px;
+  margin-left: 22.5vw;
+  margin-top: 80vh; }
+
+.arrow-up-2 {
+  position: absolute;
+  width: 45px;
+  right: 22.5vw;
+  margin-top: 17.5vh; }
+
+.arrow-down-2 {
+  position: absolute;
+  width: 45px;
+  right: 22.5vw;
+  margin-top: 80vh; }
 
 /* HEADER */
 header {
@@ -108,18 +181,24 @@ header {
     header ul li {
       margin-top: 0;
       float: left;
-      padding-left: 20px;
-      padding-right: 20px; }
+      width: 22.5%;
+      text-align: center; }
       header ul li a {
         float: left;
         color: black;
         padding-top: 20px;
         font-size: 12px;
-        letter-spacing: 2px; }
+        letter-spacing: 2px;
+        width: 100%; }
       header ul li a:hover {
         border-top: 5px solid #F26524;
         padding-top: 15px;
         color: black; }
+  header #active a {
+    border-top: 5px solid #00AC98;
+    padding-top: 15px;
+    color: black;
+    font-weight: bold; }
   header .box-link {
     float: left;
     padding: 10px;
@@ -146,6 +225,8 @@ header {
 #people {
   height: 125vh !important;
   position: relative; }
+  #people h2 {
+    margin-bottom: 25px; }
   #people img {
     height: auto;
     position: absolute; }
@@ -247,22 +328,38 @@ footer {
     color: white;
     font-style: italic;
     font-family: macklin;
-    font-weight: 900; }
+    font-weight: 600; }
 
 #home-2 {
   overflow: hidden;
   position: relative; }
   #home-2 .svg-v-3 {
     position: absolute;
-    left: 8.25vw; }
+    right: 8.25vw; }
   #home-2 .svg-v-4 {
     position: absolute;
-    left: 41.5vw; }
+    right: 41.5vw; }
   #home-2 .svg-h-3 {
     position: absolute;
     top: 25vh; }
   #home-2 .svg-h-4 {
     position: absolute;
-    top: 75vh; }
+    bottom: 25vh; }
+
+#home-3 {
+  overflow: hidden;
+  position: relative; }
+  #home-3 .svg-v-3 {
+    position: absolute;
+    right: 8.25vw; }
+  #home-3 .svg-v-4 {
+    position: absolute;
+    right: 41.5vw; }
+  #home-3 .svg-h-3 {
+    position: absolute;
+    top: 25vh; }
+  #home-3 .svg-h-4 {
+    position: absolute;
+    bottom: 25vh; }
 
 /*# sourceMappingURL=style.css.map */

@@ -14,14 +14,23 @@ h2{
   font-family: gotham;
   font-weight: 900;
   font-size: 40px;
+  line-height: 40px;
 }
 
 h3{
   font-family: gotham;
 }
+h4{
+  font-family: macklin;
+  font-size: 22px;
+  font-style: italic;
+  float: left;
+
+}
 
 p{
   font-family: gotham;
+  font-size: 15px;
 }
 
 a{
@@ -42,6 +51,18 @@ li{
 
 .orange-underline{
   border-bottom: 6px solid $orange;
+}
+
+.macklin{
+  font-family: macklin!important;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 32.5px;
+  padding: 0;
+}
+
+.giant{
+  font-size: 65px;
 }
 
 
@@ -100,6 +121,45 @@ margin-top: 50px;
 }
 
 
+.copy-top{
+  z-index: 9;
+  div{
+    float: left;
+  }
+}
+
+.copy-link-green{
+background-color: $green;
+font-family: gotham;
+float: left;
+text-align: center;
+color: white;
+text-decoration: none;
+padding: 10px;
+margin-top: 25px;
+}
+
+.copy-link-turquoise{
+  background-color: $turquoise;
+  font-family: gotham;
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+.copy-link-orange{
+  background-color: $orange;
+  font-family: gotham;
+  float: left;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 25px;
+}
 
 
 
@@ -126,6 +186,34 @@ margin-top: 50px;
     width: auto;
   }
 }
+}
+
+.arrow-up-1{
+  position: absolute;
+  width: 45px;
+  margin-left: 22.5vw;
+  margin-top: 17.5vh;
+}
+
+.arrow-down-1{
+  position: absolute;
+  width: 45px;
+  margin-left: 22.5vw;
+  margin-top: 80vh;
+}
+
+.arrow-up-2{
+  position: absolute;
+  width: 45px;
+  right: 22.5vw;
+  margin-top: 17.5vh;
+}
+
+.arrow-down-2{
+  position: absolute;
+  width: 45px;
+  right: 22.5vw;
+  margin-top: 80vh;
 }
 
 /* HEADER */
@@ -159,14 +247,15 @@ a{
   li{
     margin-top: 0;
     float: left;
-    padding-left: 20px;
-    padding-right: 20px;
+width: 22.5%;
+text-align: center;
     a{
       float: left;
       color: black;
       padding-top: 20px;
       font-size: 12px;
       letter-spacing: 2px;
+      width: 100%;
     }
     a:hover{
       border-top: 5px solid $orange;
@@ -174,6 +263,16 @@ a{
       color: black;
     }
   }
+}
+
+
+#active{
+  a{
+  border-top: 5px solid $turquoise;
+  padding-top: 15px;
+  color: black;
+  font-weight: bold;
+}
 }
 
 .box-link{
@@ -210,6 +309,10 @@ a:hover{
 #people{
   height: 125vh!important;
   position: relative;
+
+  h2{
+    margin-bottom: 25px;
+  }
 
   img{
     height: auto;
@@ -378,7 +481,7 @@ li{
     color: white;
     font-style: italic;
     font-family: macklin;
-    font-weight: 900;
+    font-weight: 600;
   }
 
 }
@@ -394,12 +497,12 @@ position: relative;
 
 .svg-v-3{
   position: absolute;
-  left: 8.25vw;
+  right: 8.25vw;
 }
 
 .svg-v-4{
   position: absolute;
-  left: 41.5vw;
+  right: 41.5vw;
 }
 
 .svg-h-3{
@@ -409,6 +512,35 @@ position: relative;
 
 .svg-h-4{
   position: absolute;
-  top: 75vh;
+  bottom: 25vh;
+}
+}
+
+
+
+
+
+#home-3{
+overflow: hidden;
+position: relative;
+
+.svg-v-3{
+  position: absolute;
+  right: 8.25vw;
+}
+
+.svg-v-4{
+  position: absolute;
+  right: 41.5vw;
+}
+
+.svg-h-3{
+  position: absolute;
+  top: 25vh;
+}
+
+.svg-h-4{
+  position: absolute;
+  bottom: 25vh;
 }
 }
