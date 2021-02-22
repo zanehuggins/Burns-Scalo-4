@@ -271,9 +271,27 @@ iframe {
 .zoom {
   position: fixed;
   height: 100vh;
-  background-image: url("../assets/images/shannon-2.png");
   background-repeat: no-repeat;
   background-size: cover; }
+
+.zoom-1 {
+  background-image: url("../assets/images/unparalleled-luxe.png"); }
+  .zoom-1 h2 {
+    color: white !important; }
+  .zoom-1 p {
+    color: white !important; }
+
+.zoom-2 {
+  background-image: url("../assets/images/meticulous.png"); }
+
+.background-gradient {
+  background: black;
+  background: linear-gradient(180deg, black 0%, rgba(0, 0, 0, 0.5) 50%);
+  height: 400vh;
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0; }
 
 .reveal-container {
   margin-top: 15vh; }

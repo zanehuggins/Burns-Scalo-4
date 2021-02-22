@@ -352,7 +352,6 @@ iframe{
   animation-delay: calc(var(--scroll) * -.01s);
   animation-iteration-count: 1;
   animation-fill-mode: both;
-
   top: 0vh;
 }
 
@@ -394,9 +393,35 @@ iframe{
 .zoom{
   position: fixed;
   height: 100vh;
-  background-image: url('../assets/images/shannon-2.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.zoom-1{
+    background-image: url('../assets/images/unparalleled-luxe.png');
+    h2{
+      color: white!important;
+    }
+    p{
+      color: white!important;
+    }
+}
+
+.zoom-2{
+    background-image: url('../assets/images/meticulous.png');
+    h2{
+
+    }
+}
+
+.background-gradient{
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5) 50%);
+height: 400vh;
+width: 100%;
+z-index: 100;
+position: absolute;
+top: 0;
 }
 
 .reveal-container{
