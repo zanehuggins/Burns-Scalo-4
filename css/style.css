@@ -61,10 +61,13 @@ section {
   position: relative; }
   section .copy-container-left {
     height: 50vh;
+    width: 41.75vw !important;
+    left: 3.25vw;
     margin-top: 25vh;
     background-color: #f2f2f2;
     position: absolute;
-    z-index: -1; }
+    z-index: -1;
+    margin-left: 5vw !important; }
     section .copy-container-left h2 {
       float: left;
       margin-top: 50px;
@@ -96,13 +99,16 @@ section {
         margin-top: 10px; }
   section .copy-top {
     z-index: 9;
-    background-color: rgba(229, 229, 229, 0.5) !important; }
+    background-color: rgba(229, 229, 229, 0.5) !important;
+    position: absolute; }
     section .copy-top div {
       float: left; }
     section .copy-top a:hover {
       opacity: .75; }
     section .copy-top .image-container-left {
-      z-index: 0; }
+      z-index: 0 !important; }
+      section .copy-top .image-container-left img {
+        z-index: 0 !important; }
     section .copy-top .image-container-right {
       z-index: 0; }
   section .copy-link-green {
@@ -146,7 +152,8 @@ section {
     height: 75vh;
     margin-top: 12.5vh;
     overflow: hidden;
-    z-index: 0 !important; }
+    z-index: -1 !important;
+    position: absolute; }
     section .image-container-left img {
       height: 100% !important;
       width: auto; }
@@ -179,11 +186,12 @@ header {
     list-style: none;
     padding-top: 0 !important;
     margin-top: 0 !important;
-    float: left; }
+    float: left;
+    padding-left: 10vw; }
     header ul li {
       margin-top: 0;
       float: left;
-      width: 22.5%;
+      width: 33.33%;
       text-align: center; }
       header ul li a {
         float: left;
@@ -281,10 +289,12 @@ iframe {
     left: 50vw; }
   .home-1 .svg-h-1 {
     position: absolute;
-    top: 25vh; }
+    top: 25vh;
+    z-index: 5 !important; }
   .home-1 .svg-h-2 {
     position: absolute;
-    top: 75vh; }
+    top: 75vh;
+    z-index: 5 !important; }
 
 .who-1 {
   overflow: hidden; }

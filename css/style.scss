@@ -85,10 +85,13 @@ section{
 
 .copy-container-left{
   height: 50vh;
+  width: 41.75vw!important;
+  left: 3.25vw;
   margin-top: 25vh;
   background-color: #f2f2f2;
   position: absolute;
   z-index: -1;
+  margin-left: 5vw!important;
 
   h2{
 float: left;
@@ -146,11 +149,15 @@ margin-top: 50px;
     opacity: .75;
   }
   .image-container-left{
-    z-index: 0;
+    z-index: 0!important;
+    img{
+      z-index: 0!important;
+    }
   }
   .image-container-right{
     z-index: 0;
   }
+  position: absolute;
 }
 
 .copy-link-green{
@@ -205,7 +212,8 @@ margin-top: 25px;
   height: 75vh;
   margin-top: 12.5vh;
   overflow: hidden;
-  z-index: 0!important;
+  z-index: -1!important;
+  position: absolute;
   img{
     height: 100%!important;
     width: auto;
@@ -253,10 +261,11 @@ a{
     padding-top: 0!important;
     margin-top: 0!important;
     float: left;
+    padding-left: 10vw;
   li{
     margin-top: 0;
     float: left;
-width: 22.5%;
+width: 33.33%;
 text-align: center;
     a{
       float: left;
@@ -412,11 +421,13 @@ overflow: hidden;
 .svg-h-1{
   position: absolute;
   top: 25vh;
+  z-index: 5!important;
 }
 
 .svg-h-2{
   position: absolute;
   top: 75vh;
+  z-index: 5!important;
 }
 }
 
